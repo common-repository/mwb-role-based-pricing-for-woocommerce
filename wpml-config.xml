@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <key name="mrbpfw_regular_price_text"/>
+        <key name="mrbpfw_sale_price_text"/>
+        <key name="mrbpfw_role_based_price_text"/>
+        <key name="mrbpfw_atc_text"/>
+    </admin-texts>
+</wpml-config>

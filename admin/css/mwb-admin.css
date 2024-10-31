@@ -1,0 +1,548 @@
+@charset "UTF-8";
+/* Create Color variables here
+ * follow this link for Color name
+ * https://chir.ag/projects/name-that-color/
+ * and use $c prefix.
+ * use lowercase for color code and variable name 
+ * i.e $c-black: #000000; */
+/* Create Typo variables here
+ * use $ff prefix for font family
+ * use $fs for font size
+ i.e $ff-roboto-b: Roboto-bold;
+ * $fs-large: 40px; */
+/* Placeholders */
+/* Mixins */
+/* SCSS Functions */
+/* Enter Your Global CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.mwb-info-img {
+  display: inline-block;
+  margin-right: 6px;
+  margin-top: -3px;
+  max-width: 15px;
+}
+
+/* Enter Button Global CSS Here */
+/* Header CSS */
+/* Footer CSS */
+/* Navigation CSS */
+/* Sidebar CSS */
+/* About page css */
+/* Home Page CSS */
+/* Overview page css */
+
+
+.mwb-overview__wrapper .mwb-overview__banner {
+  background-color: #ffffff;
+  margin: 10px 0 25px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.mwb-overview__wrapper .mwb-overview__banner img {
+  width: 100%;
+}
+
+.mwb_mrbpfw_overview-video {
+  margin: 25px 0px;
+  text-align: center;
+}
+
+.mwb_mrbpfw_overview-video iframe {
+  max-width: 100%;
+}
+
+.mwb-overview__wrapper
+  .mwb-overview__content
+  .mwb-overview__content-description {
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  padding: 25px 0;
+  text-align: left;
+}
+
+.mwb-overview__wrapper
+  .mwb-overview__content
+  .mwb-overview__content-description
+  h2 {
+  color: #163062;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 150%;
+  margin: 10px 0px;
+  text-align: left;
+}
+
+.mwb-overview__wrapper .mwb-overview__content .mwb-overview__content-description p,
+.mwb-mrbpfw-overview__desc p {
+  color: #565857;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.mwb-overview__wrapper
+  .mwb-overview__content
+  .mwb-overview__content-description
+  h3 {
+  color: #163062;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.mwb-overview__wrapper
+  .mwb-overview__content
+  .mwb-overview__content-description
+  .mwb-overview__features {
+  list-style: none;
+}
+
+.mwb-overview__wrapper
+  .mwb-overview__content
+  .mwb-overview__content-description
+  .mwb-overview__features
+  li {
+  color: #565857;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+.mwb-overview__wrapper
+  .mwb-overview__content
+  .mwb-overview__content-description
+  .mwb-overview__features
+  li:before {
+  color: #1a3365;
+  content: "⚬";
+  font-size: 20px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.mwb-overview__wrapper .mwb-overview__content h2,
+.mwb-overview__wrapper .mwb_mrbpfw_overview-wrapper .mwb_mrbpfw_overview_heading {
+  color: #163062;
+  font-size: 30px;
+  font-weight: 600;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 150%;
+  margin: 10px 0px;
+  text-align: left;
+}
+
+.mwb-overview__wrapper .mwb-overview__content .mwb-overview__keywords {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.mwb-overview__wrapper
+  .mwb-overview__content
+  .mwb-overview__keywords
+  .mwb-overview__keywords-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 33.33%;
+  margin-bottom: 20px;
+  max-width: 33.33%;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.mwb-overview__wrapper
+  .mwb-overview__content
+  .mwb-overview__keywords
+  .mwb-overview__keywords-item
+  .mwb-overview__keywords-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
+  box-shadow: 0px 4px 10px #efefef;
+  color: #ffffff;
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.mwb-overview__wrapper
+  .mwb-overview__content
+  .mwb-overview__keywords
+  .mwb-overview__keywords-item
+  .mwb-overview__keywords-card
+  .mwb-overview__keywords-image {
+  overflow: hidden;
+}
+
+.mwb-overview__wrapper
+  .mwb-overview__content
+  .mwb-overview__keywords
+  .mwb-overview__keywords-item
+  .mwb-overview__keywords-card
+  .mwb-overview__keywords-image
+  img {
+  max-width: 80px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: auto;
+}
+
+.mwb-overview__wrapper
+  .mwb-overview__content
+  .mwb-overview__keywords
+  .mwb-overview__keywords-item
+  .mwb-overview__keywords-card
+  .mwb-overview__keywords-text
+  .mwb-overview__keywords-heading {
+  color: #163062;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 38px;
+  margin: 15px 0;
+}
+
+.mwb-overview__wrapper
+  .mwb-overview__content
+  .mwb-overview__keywords
+  .mwb-overview__keywords-item
+  .mwb-overview__keywords-card
+  .mwb-overview__keywords-text
+  .mwb-overview__keywords-description {
+  color: #565857;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+
+
+/* overview page css ends */
+
+/* price rule page  css start*/
+.post-type-mrbpfw_price_rules {
+  background-color: #ffffff;
+}
+.post-type-mrbpfw_price_rules select {
+  padding: 5px 20px;
+  margin-right: 20px !important;
+}
+
+.post-type-mrbpfw_price_rules .tablenav {
+  height: unset;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.post-type-mrbpfw_price_rules .wp-list-table {
+  margin: 15px 0;
+}
+.post-type-mrbpfw_price_rules .striped > tbody > :nth-child(odd) {
+  background-color: unset;
+}
+
+.post-type-mrbpfw_price_rules .wp-list-table th,
+.post-type-mrbpfw_price_rules td {
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1d201f;
+  letter-spacing: 0.25px;
+}
+.post-type-mrbpfw_price_rules .tablenav .actions {
+  padding: 0 8px 0 0;
+  flex: 0 0 40%;
+  max-width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.post-type-mrbpfw_price_rules .tablenav .button {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  background: #2196f3;
+  border-radius: 35px;
+  border: 1px solid transparent;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "NunitoSans-Bold";
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  line-height: 16px;
+  margin: 20px 0;
+  max-width: 140px;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  user-select: none;
+  vertical-align: middle;
+  width: 100%;
+}
+.post-type-mrbpfw_price_rules .tablenav .tablenav-pages {
+  position: absolute;
+  right: 0px;
+}
+
+/* price rule page  css end*/
+
+.post-type-mrbpfw_price_rules .button-secondary {
+  color: #ffffff;
+  border-color: #2196f3;
+  background: #2196f3;
+  vertical-align: top;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  transition: 0.3s linear all;
+}
+
+.post-type-mrbpfw_price_rules .button-secondary:hover {
+  background-color: transparent;
+  color: #1d201f;
+}
+
+.mwb-form__wrap a,
+.mwb-form__wrap button:focus {
+  box-shadow: none !important;
+  outline: none;
+}
+
+.mwb-form__wrap input[type="text"],
+.mwb-form__wrap input[type="password"],
+.mwb-form__wrap input[type="email"],
+.mwb-form__wrap input[type="url"],
+.mwb-form__wrap input[type="number"],
+.mwb-form__wrap textarea,
+.mwb-form__wrap select {
+  border-color: #8e908f !important;
+  max-width: 300px;
+  padding: 10px 15px !important;
+  width: 100%;
+}
+
+.mwb-form__wrap input[type="submit"]:focus {
+  border: none;
+  outline: none;
+}
+
+.mwb-form__wrap input[type="text"]:focus,
+.mwb-form__wrap input[type="password"]:focus,
+.mwb-form__wrap input[type="url"]:focus,
+.mwb-form__wrap input[type="email"]:focus,
+.mwb-form__wrap input[type="checkbox"]:focus,
+.mwb-form__wrap input[type="number"]:focus,
+.mwb-form__wrap textarea:focus,
+.mwb-form__wrap select:focus {
+  border-color: #2196f3 !important;
+  box-shadow: 0 0 1px #2196f3 !important;
+  color: #1d201f;
+}
+
+.post-type-mrbpfw_price_rules .mwb-switch {
+  background: #9d9d9d;
+  border-radius: 32px;
+  cursor: pointer;
+  display: block;
+  height: 14px;
+  position: relative;
+  width: 34px;
+}
+
+.post-type-mrbpfw_price_rules .mwb-switch__bg {
+  background: #87c6f8;
+}
+
+.post-type-mrbpfw_price_rules
+  .mwb-switch
+  input[type="checkbox"]:checked::before {
+  content: none;
+}
+
+.post-type-mrbpfw_price_rules .mwb-switch input[type="checkbox"] {
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0px rgb(0 0 0 / 14%),
+    0 1px 5px 0 rgb(0 0 0 / 12%);
+  box-sizing: border-box;
+  height: 20px;
+  left: -1px;
+  position: absolute;
+  top: 0;
+  transition: all 0.1s linear;
+  width: 20px;
+  z-index: 1;
+}
+
+.post-type-mrbpfw_price_rules .mwb-switch input[type="checkbox"]:focus {
+  border: none;
+  box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0px rgb(0 0 0 / 14%),
+    0 1px 5px 0 rgb(0 0 0 / 12%) !important;
+  outline: none;
+}
+
+.mwb-switch-checkbox--move {
+  background: #2196f3 !important;
+  border: 1px solid #2196f3 !important;
+  transform: translateX(88%);
+}
+
+.mwb-form__grp {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.mwb-form__label {
+  flex: 0 0 100%;
+  max-width: 30%;
+}
+
+.mwb-form__label label {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  font-weight: 400;
+  color: #1d201f;
+}
+
+.mwb-form__fields {
+  flex: 0 0 100%;
+  max-width: 70%;
+}
+
+.mwb-form__fields input,
+.mwb-form__fields select {
+  color: #1d201f;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 22px;
+}
+
+.post-type-mrbpfw_price_rules .mwb-btn {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  border-radius: 35px;
+  border: 1px solid transparent;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "NunitoSans-Bold";
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  line-height: 16px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  user-select: none;
+  vertical-align: middle;
+}
+.tablenav .actions select {
+  width: 100% !important;
+  max-width: 50%;
+}
+@media (max-width: 992px) {
+  .mwb-overview__wrapper
+    .mwb-overview__content
+    .mwb-overview__keywords
+    .mwb-overview__keywords-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .mwb-overview__wrapper
+    .mwb-overview__content
+    .mwb-overview__keywords
+    .mwb-overview__keywords-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .mwb-user-setting-table-wrap {
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  .mwb-user-setting-table-wrap table {
+    table-layout: fixed !important;
+    width: auto !important;
+  }
+  .post-type-mrbpfw_price_rules .tablenav .actions {
+    max-width: 100% !important;
+    margin-bottom: 15px !important;
+    flex: 0 0 100% !important;
+  }
+  .tablenav .actions select {
+    max-width:30% !important;
+    width: 100% !important;
+  }
+  .mwb-form-group__control,
+  .mwb-form-group__label {
+    max-width: 100% !important;
+  }
+  .mwb-form-group__label {
+    margin-bottom: 10px;
+  }
+
+  .mwb-section {
+    padding: 25px 10px;
+  }
+
+  .mwb-navbar {
+    padding: 10px;
+  }
+
+  .mwb-navbar__items li a {
+    padding: 12px 0;
+  }
+
+  .mwb-overview__wrapper .mwb-overview__content .mwb-overview__keywords .mwb-overview__keywords-item .mwb-overview__keywords-card {
+    padding: 15px;
+  }
+}
+
+.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu .mwb-errorr-8 {
+  margin-left: unset;
+  padding-left: unset;
+  position: absolute !important;
+  left: 180px;
+  right: 0;
+  z-index: 9;
+}
+.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu
+  #wpbody-content {
+  transition: 0.3s linear all;
+}
+
+.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu
+  > .mwb-errorr-8
+  ~ #wpwrap
+  #wpbody-content {
+  margin-top: 46px;
+}
+@media (max-width: 560px) {
+  .mwb-header-title {
+  width: 100% !important;
+  max-width: 100%;
+  margin-bottom: 15px !important;
+  }
+}

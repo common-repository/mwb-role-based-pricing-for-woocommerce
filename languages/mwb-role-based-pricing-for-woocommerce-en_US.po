@@ -1,0 +1,701 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MWB Role Based Pricing For WooCommerce 1.1.0\n"
+"POT-Creation-Date: 2021-12-14 14:53+0530\n"
+"PO-Revision-Date: 2021-12-14 14:53+0530\n"
+"Last-Translator: \n"
+"Language-Team: MakeWebBetter\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;translate_nooped_plural\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:150
+#: mwb-role-based-pricing-for-woocommerce.php:104
+#: mwb-role-based-pricing-for-woocommerce.php:110
+msgid "MWB Role Based Pricing For WooCommerce"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:192
+msgid "Enable Plugin's Functionality"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:203
+msgid "Price Rule Apply on"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:209
+#: admin/partials/mwb-mrbpfw-user-role.php:31
+msgid "Regular Price"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:210
+msgid "Sale Price"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:214
+msgid "Price Rule Apply Using"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:220
+msgid "Min Discount"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:221
+msgid "Max Discount"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:222
+msgid "All Discount Combined"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:223
+msgid "Min Priority"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:224
+msgid "Max Priority"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:232
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:305
+msgid "Save Setting"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:247
+msgid "Enable to Hide Tax Label"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:258
+msgid "Regular Price text"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:260
+msgid "This text appears next to regular price."
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:267
+msgid "On Sale Price text"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:269
+msgid "This text appears next to on sale price."
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:276
+msgid "Role Based Price text"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:278
+msgid "This text appears next to role based price."
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:285
+msgid "Add to cart button text"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:287
+msgid ""
+"This text appears in-place of Add To Cart button, if the button is disable."
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:294
+msgid "Discount Tag Color"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:346
+msgid "Id of some field is missing"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:349
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:375
+msgid "Settings saved !"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:385
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:387
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:402
+msgid "Price Rule"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:386
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:402
+msgid "Price Rules"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:388
+msgid "Parent Price Rule"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:389
+msgid "All Price Rule"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:390
+msgid "View Price Rule"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:391
+msgid "Add New Price Rule"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:392
+#: admin/partials/mwb-mrbpfw-metafields.php:63
+#: admin/partials/mwb-mrbpfw-price-rule.php:268
+msgid "Add New"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:393
+msgid "Edit Price Rule"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:394
+#: admin/partials/mwb-mrbpfw-metafields.php:59
+msgid "Update Price Rule"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:395
+#: admin/partials/mwb-mrbpfw-price-rule.php:276
+msgid "Search Price Rule"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:396
+msgid "Not Found"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:397
+msgid "Not found in Trash"
+msgstr ""
+
+#: admin/class-mwb-role-based-pricing-for-woocommerce-admin.php:401
+msgid "price-rules"
+msgstr ""
+
+#: admin/index.php:10 includes/index.php:10 index.php:14 public/index.php:10
+msgid "oops looks like nothing is here"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-admin-dashboard.php:23
+msgid "MWB ROLE BASED PRICING FOR WOOCOMMERCE"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-admin-dashboard.php:24
+#: mwb-role-based-pricing-for-woocommerce.php:193
+msgid "Documentation"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-admin-dashboard.php:26
+#: mwb-role-based-pricing-for-woocommerce.php:194
+msgid "Support"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-general.php:31
+msgid "To create a new price rule click"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-general.php:31
+#: admin/partials/mwb-mrbpfw-general.php:32
+msgid "here"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-general.php:32
+msgid "To manage existing price rules click"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:59
+msgid "Add Price Rule"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:69
+msgid "Back to Rule List"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:77
+msgid "Enable the Rule"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:94
+msgid "Add title"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:97
+msgid "Please Enter the title"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:102
+msgid "Choose A Role"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:116
+msgid "Select Rule Type"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:120
+#: admin/partials/mwb-mrbpfw-price-rule.php:71
+msgid "All Products"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:121
+msgid "Select Products"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:122
+#: admin/partials/mwb-mrbpfw-price-rule.php:75
+msgid "Categories"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:123
+#: admin/partials/mwb-mrbpfw-price-rule.php:77
+msgid "Tags"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:130
+msgid "Choose Products"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:157
+msgid "Choose Product Categories"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:183
+msgid "Choose Product Tags"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:207
+msgid "Select Discount Type"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:211
+#: admin/partials/mwb-mrbpfw-price-rule.php:80
+msgid "Fixed"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:212
+#: admin/partials/mwb-mrbpfw-price-rule.php:80
+msgid "Percentage"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:218
+msgid "Enter Price"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:221
+msgid "Please Enter the Price"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:226
+#: admin/partials/mwb-mrbpfw-price-rule.php:38
+msgid "Priority"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:229
+msgid "Please Enter the Priority"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:235
+msgid "Update"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-metafields.php:235
+msgid "Publish"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:21
+msgid ""
+"Connect With Us and Explore More About MWB Role Based Pricing For WooCommerce"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:23
+#: admin/partials/mwb-mrbpfw-overview.php:35
+msgid ""
+"The MWB Role Based Pricing For WooCommerce allows the WooCommerce merchants "
+"to show prices on their online store based on different user roles. For "
+"example, wholesalers, retailers, and distributors, etc. The merchants can "
+"create a dedicated pricing list for either selected products or selected "
+"categories using this plugin."
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:32
+msgid "What Is MWB Role Based Pricing For WooCommerce?"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:38
+msgid "With MWB Role Based Pricing For WooCommerce the admin can:"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:40
+msgid ""
+"Show the right price separately to wholesalers, retailers, distributors, and "
+"customers."
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:41
+msgid "Priority-based rule application on products for different roles."
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:42
+msgid "Apply role based pricing on particular selected products"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:43
+msgid "Hide price for selected user roles."
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:44
+msgid "Enable Role based pricing on your store with unlimited rule."
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:45
+msgid "Create, edit, and implement role based pricing rules"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:48
+msgid "Features Of MWB Role Based Pricing For WooCommerce "
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:49
+msgid "Take a glance at the key features of this plugin:"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:57
+msgid "User Role Based Add-To-Cart Button"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:61
+msgid ""
+"The plugin allows the admin to remove or replace the Add-to-cart button for "
+"guest users or other desired user roles. "
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:75
+msgid "Priority-Based Pricing Rules"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:79
+msgid ""
+"Admin can create priority-based pricing rules for different user roles. The "
+"admin can give priority to the created rules. The first priority rule will "
+"be applied first then the second and so on"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:93
+msgid "Unlimited User Role Based Pricing Rules"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:97
+msgid ""
+"Admin can create unlimited pricing rules and apply them to the regular price "
+"or sale price as desired. Admin may apply restrictions to specific products, "
+"tags, or categories as well."
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:111
+msgid "Enable/ Disable Role Based Pricing"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:115
+msgid ""
+"Admin can show or hide the role based price, Regular Price, and Sale price "
+"to users. Settings for the priority of each user have been provided."
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:129
+msgid "Hide Price For User-Roles"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-overview.php:133
+msgid ""
+"The MWB Role Based Pricing plugin lets the store owner hide certain specific "
+"product prices from specific user roles. Admin can completely adjust pricing "
+"for user roles."
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-price-rule.php:33
+msgid "Title"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-price-rule.php:34
+msgid "Role"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-price-rule.php:35
+msgid "Rule Type"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-price-rule.php:36
+msgid "Discount Type"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-price-rule.php:37
+msgid "Price"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-price-rule.php:39
+msgid "Enable/Disable"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-price-rule.php:40
+msgid "Published"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-price-rule.php:64
+msgid "Edit"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-price-rule.php:73
+msgid "Selected Products"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-price-rule.php:154
+msgid "Delete"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-price-rule.php:181
+msgid "Price Rule Deleted Successfully"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-price-rule.php:267
+msgid "Price Rules List"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-system-status.php:30
+msgid "WP Variables"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-system-status.php:31
+msgid "WP Values"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-system-status.php:56
+msgid "System Variables"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-system-status.php:57
+msgid "System Values"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-user-role.php:30
+msgid "Roles"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-user-role.php:32
+msgid "On Sale Price"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-user-role.php:33
+msgid "Role Based Price"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-user-role.php:34
+msgid "Add to Cart"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-user-role.php:35
+msgid "Incl/Excl Tax"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-user-role.php:36
+msgid "Show Discount"
+msgstr ""
+
+#: admin/partials/mwb-mrbpfw-user-role.php:100
+msgid "Save User Setting"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce-onboarding-steps.php:296
+msgid "What is your monthly revenue?"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce-onboarding-steps.php:315
+msgid "What industry defines your business?"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce-onboarding-steps.php:321
+msgid "Industry Type"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce-onboarding-steps.php:352
+msgid "What is the best email address to contact you?"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce-onboarding-steps.php:356
+msgid "Email"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce-onboarding-steps.php:364
+msgid "What is your contact number?"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce-onboarding-steps.php:369
+msgid "Contact Number"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce-onboarding-steps.php:480
+msgid "Let us know why you are deactivating so we can improve the plugin"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce-onboarding-steps.php:484
+msgid "Reason"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce-onboarding-steps.php:723
+msgid "Unexpected Error Occured"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:390
+msgid "Overview"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:394
+msgid "General Setting"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:398
+msgid "User Role Setting"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:406
+msgid "Text Setting"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:412
+msgid "System Status"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:436
+#, php-format
+msgid ""
+"Unable to locate file at location \"%s\". Some features may not work "
+"properly in this plugin. Please contact us!"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:494
+msgid "N/A (phpversion function does not exist)"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:503
+msgid "N/A (make sure exec function is enabled)"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:506
+msgid "N/A (ABSPATH constant not defined)"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:509
+msgid "N/A (php_uname function does not exist)"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:512
+msgid "N/A (get_bloginfo function does not exist)"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:515
+msgid "N/A (get_option function does not exist)"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:518
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:521
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:524
+msgid "Yes"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:518
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:521
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:524
+msgid "No"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:527
+msgid "N/A (count_users function does not exist)"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:530
+msgid "0"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:533
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:539
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:542
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:570
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:573
+msgid "N/A (ini_get function does not exist)"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:536
+msgid "N/A"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:554
+msgid "N/A (gethostname function does not exist)"
+msgstr ""
+
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:557
+#: includes/class-mwb-role-based-pricing-for-woocommerce.php:566
+msgid "N/A (make sure exec is enabled)"
+msgstr ""
+
+#: mwb-role-based-pricing-for-woocommerce.php:178
+msgid "Settings"
+msgstr ""
+
+#: mwb-role-based-pricing-for-woocommerce.php:192
+msgid "Demo"
+msgstr ""
+
+#: mwb-role-based-pricing-for-woocommerce.php:255
+msgid ""
+"Woocommerce is not activated, Please activate Woocommerce first to install "
+"MWB Role Based Pricing for WooCommerce."
+msgstr ""
+
+#: onboarding/templates/mwb-role-based-pricing-for-woocommerce-deactivation-template.php:33
+msgid "May we have a little info about why you are deactivating?"
+msgstr ""
+
+#: onboarding/templates/mwb-role-based-pricing-for-woocommerce-deactivation-template.php:44
+msgid "Skip and Deactivate Now"
+msgstr ""
+
+#: onboarding/templates/mwb-role-based-pricing-for-woocommerce-onboarding-template.php:27
+msgid "Welcome to MakeWebBetter"
+msgstr ""
+
+#: onboarding/templates/mwb-role-based-pricing-for-woocommerce-onboarding-template.php:28
+msgid ""
+"We love making new friends! Subscribe below and we promise to keep you up-to-"
+"date with our latest new plugins, updates, awesome deals and a few special "
+"offers."
+msgstr ""
+
+#: onboarding/templates/mwb-role-based-pricing-for-woocommerce-onboarding-template.php:40
+msgid "Skip For Now"
+msgstr ""
+
+#: public/class-mwb-role-based-pricing-for-woocommerce-public.php:548
+#: public/class-mwb-role-based-pricing-for-woocommerce-public.php:788
+#: public/class-mwb-role-based-pricing-for-woocommerce-public.php:932
+#: public/class-mwb-role-based-pricing-for-woocommerce-public.php:1195
+msgid "incl.VAT"
+msgstr ""
+
+#: public/class-mwb-role-based-pricing-for-woocommerce-public.php:550
+#: public/class-mwb-role-based-pricing-for-woocommerce-public.php:790
+#: public/class-mwb-role-based-pricing-for-woocommerce-public.php:934
+#: public/class-mwb-role-based-pricing-for-woocommerce-public.php:1197
+msgid "excl.VAT"
+msgstr ""
+
+#: public/class-mwb-role-based-pricing-for-woocommerce-public.php:1020
+msgid "Total Discount"
+msgstr ""
+
+#: public/class-mwb-role-based-pricing-for-woocommerce-public.php:1027
+msgid "Discount"
+msgstr ""

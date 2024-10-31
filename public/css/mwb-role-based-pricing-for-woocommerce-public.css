@@ -1,0 +1,27 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .mwb_mrbpfw-sale-perc {
+    /* background-color: #d3542e; */
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.mwb_mrbpfw_format-price {
+    margin: 10px 0!important;
+}
+.mwb_mrbpfw_format-price {
+    font-size: 15px;
+    color: #212121;
+    display: block;
+}
+.mwb_mrbpfw-sale-perc-line{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,424 @@
+/*===================================
+=            FONT-FAMILY            =
+===================================*/
+
+@font-face {
+    font-family: 'NunitoSans-Black';
+    src: url('../fonts/nunito/NunitoSans-Black.eot');
+    src: url('../fonts/nunito/NunitoSans-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/nunito/NunitoSans-Black.woff2') format('woff2'), url('../fonts/nunito/NunitoSans-Black.woff') format('woff'), url('../fonts/nunito/NunitoSans-Black.ttf') format('truetype'), url('../fonts/nunito/NunitoSans-Black.svg#NunitoSans-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NunitoSans-Italic';
+    src: url('../fonts/nunito/NunitoSans-Italic.eot');
+    src: url('../fonts/nunito/NunitoSans-Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/nunito/NunitoSans-Italic.woff2') format('woff2'), url('../fonts/nunito/NunitoSans-Italic.woff') format('woff'), url('../fonts/nunito/NunitoSans-Italic.ttf') format('truetype'), url('../fonts/nunito/NunitoSans-Italic.svg#NunitoSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'NunitoSans-Light';
+    src: url('../fonts/nunito/NunitoSans-Light.eot');
+    src: url('../fonts/nunito/NunitoSans-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/nunito/NunitoSans-Light.woff2') format('woff2'), url('../fonts/nunito/NunitoSans-Light.woff') format('woff'), url('../fonts/nunito/NunitoSans-Light.ttf') format('truetype'), url('../fonts/nunito/NunitoSans-Light.svg#NunitoSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/*=====  End of FONT-FAMILY  ======*/
+
+
+/*===================================
+=         GLOBAL CSS               =
+===================================*/
+
+:root {
+    --mdc-theme-primary: #2196f3;
+    --mdc-theme-secondary: #2196f3;
+}
+
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu {
+    font-family: 'NunitoSans-Regular', sans-serif;
+    margin: 0;
+    background-color: #E5F4FE;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu a,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu a:hover,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu a:focus {
+    text-decoration: none;
+}
+
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu a:focus {
+    box-shadow: none;
+}
+
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu h1,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu h2,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu h3,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu h4,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu h5,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu h6,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu p {
+    margin: 0;
+}
+
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=checkbox]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=color]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=date]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=datetime-local]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=datetime]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=email]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=month]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=number]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=password]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=radio]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=search]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=tel]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=text]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=time]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=url]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=week]:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu select:focus,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu textarea:focus {
+    box-shadow: none!important;
+}
+
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu select,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu option {
+    color: rgba(0, 0, 0, .7)!important;
+    box-shadow: none!important;
+    border-color: rgba(0, 0, 0, .38)!important;
+}
+
+body.post-type-rbpfw_price_rules input[type=checkbox],
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=checkbox],
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu input[type=radio] {
+    border: 1px solid  #8E908F;
+    border-radius: 2px;
+}
+
+body.post-type-rbpfw_price_rules table,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu  table {
+    width: 100%;
+    text-align: left;
+}
+
+body.post-type-rbpfw_price_rules th,
+body.post-type-rbpfw_price_rules td,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu table,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu th,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu td {
+    border: 1px solid #E0E0E0;
+    border-collapse: collapse;
+}
+
+body.post-type-rbpfw_price_rules th,
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu th, 
+body.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu td {
+    padding: 15px;
+}
+  
+
+/*=====  End of GLOBAL CSS  ======*/
+
+.mwb-link {
+    color: #3F4756;
+    display: inline-block;
+    font-family: 'NunitoSans-Bold';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+}
+.makewebbetter_page_mwb_role_based_pricing_for_woocommerce_menu .active {
+    position: relative;
+}
+
+.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 3px solid var( --mdc-theme-primary);
+    border-radius: 2px;
+}
+
+.mwb-bg-white {
+    background-color: #ffffff;
+    margin-right: 15px;
+}
+
+.mwb-r-8 {
+    border-radius: 8px;
+}
+
+.mwb-pl-4 {
+    padding: 0 4px!important;
+}
+
+.mwb-errorr-8 {
+    margin-left: 185px;
+    padding-left: 20px;
+}
+.mwb-header-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding: 28px 32px;
+}
+
+.mdc-floating-label {
+    color: var( --mdc-theme-primary);
+}
+
+.mdc-floating-label--float-above,
+.mdc-floating-label--shake {
+    color: var( --mdc-theme-primary)!important;
+}
+
+.mwb-header-title {
+    font-family: 'NunitoSans-ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: var(--mdc-theme-primary);
+    flex: 0 0 100%;
+    max-width: calc(100% - 200px);
+}
+
+.mwb-navbar {
+    padding: 0 32px;
+    border-bottom: 1px solid rgba(63, 71, 86, 0.25);
+}
+
+.mwb-navbar__items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mwb-navbar__items li {
+    margin-right: 32px;
+    margin-bottom: 0;
+}
+
+.mwb-navbar__items li a {
+    padding: 18px 0;
+    color: var(--mdc-theme-primary);
+}
+
+.mwb-section {
+    padding: 28px 32px;
+}
+
+.mwb-form-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px 35px;
+}
+
+.mwb-form-group__label {
+    flex: 0 0 100%;
+    max-width: 200px;
+    padding: 0 15px;
+}
+
+.mwb-form-group__control {
+    flex: 0 0 100%;
+    max-width: calc(100% - 200px);
+    padding: 0 15px;
+}
+
+.mwb-form-label {
+    font-family: 'NunitoSans-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.mwb-form-select:hover select {
+    border-color: rgba(0, 0, 0, .87)!important;
+    color: rgba(0, 0, 0, .87);
+}
+
+.mwb-form-select:focus select {
+    border-color: #2196f3!important;
+}
+
+.mdc-button {
+    border-radius: 35px!important;
+    padding: 12px 24px!important;
+    height: 100%;
+}
+
+#mwb-mrbpfw-table-inner-container {
+    width: 100%;
+}
+
+#mwb-mrbpfw-table-inner-container table thead th {
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'NunitoSans-ExtraBold';
+}
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgb(63 71 86 / 10%);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.mwb-col-wrap {
+    margin-bottom: 35px;
+}
+
+.mwb-shadow-panel {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(63, 71, 86, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.mwb-password-hidden {
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s linear;
+    user-select: none;
+}
+
+.mwb-password-hidden:hover {
+    opacity: 1;
+}
+
+.mwb-options {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)!important;
+}
+
+.content-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.content-wrap .content {
+    flex: 0 0 100%;
+    max-width: 70%;
+    padding: 0 15px;
+}
+
+.content-wrap .cta-wrap {
+    flex: 0 0 100%;
+    max-width: 30%;
+    padding: 0 15px;
+    text-align: right;
+}
+
+.mwb-cta-btn {
+    flex: 0 0 100%;
+    max-width: 100px;
+    text-align: right;
+    margin: 20px 15px;
+}
+
+.mwb-cta-btn a {
+    color: #ffffff;
+}
+
+.mwb-form-group__control .mdc-switch__native-control {
+    width: 68px;
+    height: 48px;
+}
+
+.mwb-btn-primary {
+    color: #ffffff;
+    background-color: #6200ee;
+    border-color: #004EB6;
+}
+
+.mwb-btn {
+    display: inline-block;
+    font-family: 'NunitoSans-Bold';
+    font-weight: bold;
+    line-height: 16px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 16px 32px;
+    font-size: 14px;
+    border-radius: 35px;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+}
+
+.submit-button {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    background: #2196f3;
+    border-radius: 35px;
+    border: 1px solid transparent;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'NunitoSans-Bold';
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    line-height: 16px;
+    margin: 20px 0;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    user-select: none;
+    vertical-align: middle;
+}
+
+.mwb-btn-primary:hover {
+    color: #fff;
+}
+
+.mwb-shadow-panel h3 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.toplevel_page_mwb-plugins div img {
+    width: 30px;
+}
